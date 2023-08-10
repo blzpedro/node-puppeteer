@@ -4,7 +4,7 @@ Extension URL: https://chrome.google.com/webstore/detail/youtube-summary-with-ch
 
 ## Usage
 
-1. Install Node.js v18 on your machine.
+1. Install Node.js v18.17.0 on your machine.
 2. Clone this repository.
    ```sh
    git clone https://github.com/blzpedro/node-puppeteer.git
@@ -22,8 +22,22 @@ Extension URL: https://chrome.google.com/webstore/detail/youtube-summary-with-ch
 
    After installing the dependencies, enter in your node_modules/pupppeteer then do another 
    npm install to install the Chromium correctly.
-5. Start the script:
+5. Install dependencies:
+
+   ```sh
+   npm install
+
+   After installing the dependencies, enter in your node_modules/pupppeteer then do another 
+   npm install to install the Chromium correctly.
+
+6. Create a .env file with the variable:
+
+    Note: this variable need to be created here -> https://platform.openai.com/account/api-keys
+
+   ```sh
+   OPENAI_API_KEY=?
+7. Start the script:
 
    ```sh
    node . "VIDEO_URL"
-6. After a successful execution you can note that a file called "transcript.txt" was created in your directory.
+8. After a successful execution you can note that a file called "script_result.txt" was created in your directory.

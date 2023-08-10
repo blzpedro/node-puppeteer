@@ -1,3 +1,4 @@
 node_modules
 package-lock.json
-transcript.txt
+script_result.txt
+.env

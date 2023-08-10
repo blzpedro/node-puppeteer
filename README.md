@@ -19,6 +19,9 @@ Extension URL: https://chrome.google.com/webstore/detail/youtube-summary-with-ch
 
    ```sh
    npm install
+
+   After installing the dependencies, enter in your node_modules/pupppeteer then do another 
+   npm install to install the Chromium correctly.
 5. Start the script:
 
    ```sh

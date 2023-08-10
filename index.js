@@ -35,9 +35,9 @@ import fs from 'fs'
     const element = document.querySelector(selector)
     return element && element.offsetWidth > 0 && element.offsetHeight > 0
   }, {}, toggleSelector)
-  
-  await page.click(toggleSelector)  
-  
+
+  await page.click(toggleSelector);
+
   await page.waitForTimeout(1000)
 
   const noSummaryAvailable = await page.$x("//*[contains(text(), 'No Transcription')]");
